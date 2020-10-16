@@ -4,19 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <!-- Header -->
     <header>
       <nav>
-        <a href=""> <span>Web</span>Studio </a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
+        <a href="" class="logo">Web<span class="logo-header">Studio</span></a>
+        <ul class="site-nav">
+          <li><a href="" class="link current">Студия</a></li>
+          <li><a href="./portfolio.html">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="auth-nav">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
@@ -24,15 +26,15 @@
 
     <main>
       <!-- Hero -->
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <section class="Hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="hero-button">Заказать услугу</button>
       </section>
       <!-- Features -->
-      <section>
+      <section class="features">
         <!-- h2 hidden -->
         <h2 hidden>Особенности</h2>
-        <ul>
+        <ul class="features-list">
           <li>
             <h3>Внимание к деталям</h3>
             <p>
@@ -64,27 +66,27 @@
         </ul>
       </section>
       <!-- What we do -->
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="what-we-do">
+        <h2 class="title-h2">Чем мы занимаемся</h2>
         <ul>
           <li>
-            <img src="./images/box_1.svg" alt="Box 1" width="370" />
+            <img src="./images/studio/box_1.svg" alt="Box 1" width="370" />
           </li>
           <li>
-            <img src="./images/box_2.svg" alt="Box 2" width="370" />
+            <img src="./images/studio/box_2.svg" alt="Box 2" width="370" />
           </li>
           <li>
-            <img src="./images/box_3.svg" alt="Box 3" width="370" />
+            <img src="./images/studio/box_3.svg" alt="Box 3" width="370" />
           </li>
         </ul>
       </section>
       <!-- Our Team -->
-      <section>
-        <h2>Наша команда</h2>
+      <section class="our-team">
+        <h2 class="title-h2">Наша команда</h2>
         <ul>
           <li>
             <img
-              src="./images/yhor_demianenko.jpg"
+              src="./images/studio/yhor_demianenko.jpg"
               alt="Игорь Демьяненко"
               width="270"
             />
@@ -93,7 +95,7 @@
           </li>
           <li>
             <img
-              src="./images/olha_repyna.jpg"
+              src="./images/studio/olha_repyna.jpg"
               alt="Ольга Репина"
               width="270"
             />
@@ -102,7 +104,7 @@
           </li>
           <li>
             <img
-              src="./images/nykolai_tarasov.jpg"
+              src="./images/studio/nykolai_tarasov.jpg"
               alt="Николай Тарасов"
               width="270"
             />
@@ -111,7 +113,7 @@
           </li>
           <li>
             <img
-              src="./images/mykhayl_ermakov.jpg"
+              src="./images/studio/mykhayl_ermakov.jpg"
               alt="Михаил Ермаков"
               width="270"
             />
@@ -122,16 +124,16 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer>
-      <a href=""> <span>Web</span>Studio </a>
+    <footer class="footer">
+      <a href="" class="logo">Web<span class="logo-footer">Studio</span></a>
       <address>
         <a
           href="https://goo.gl/maps/EsFHMrBiEFBvNgybA"
           target="_blank"
-          rel="noreferrer noopener"
+          rel="noreferrer noopener" class="address"
           >г. Киев, пр-т Леси Украинки, 26</a
         >
-        <ul>
+        <ul class="contacts">
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
