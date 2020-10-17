@@ -1,4 +1,4 @@
-.filter-button {
+.filter {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -8,8 +8,8 @@
   background-color: var(--button-bg-cl);
   color: var(--title-text-color);
 }
-.filter-button:hover,
-.filter-button:focus {
+.filter:hover,
+.filter:focus {
   background-color: var(--accent-color);
   color: var(--button-color);
 }
