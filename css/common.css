@@ -161,6 +161,10 @@ ul {
 
   color: var(--hero-title-color);
 }
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
+}
 .contacts a {
   font-weight: 400;
   font-size: 14px;
@@ -169,6 +173,10 @@ ul {
   letter-spacing: 0.03em;
 
   color: var(--address-contacts-color);
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
 }
 .logo-footer {
   color: var(--hero-title-color);
